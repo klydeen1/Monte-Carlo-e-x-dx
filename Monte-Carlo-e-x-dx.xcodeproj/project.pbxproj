@@ -17,6 +17,22 @@
 		656CD82027ADD5520009DDE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD7F627ADD54B0009DDE9 /* ContentView.swift */; };
 		656CD82127ADD5520009DDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656CD7F727ADD5510009DDE9 /* Assets.xcassets */; };
 		656CD82227ADD5520009DDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656CD7F727ADD5510009DDE9 /* Assets.xcassets */; };
+		656CD83527ADD6010009DDE9 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD83427ADD6010009DDE9 /* BoundingBox.swift */; };
+		656CD83627ADD6010009DDE9 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD83427ADD6010009DDE9 /* BoundingBox.swift */; };
+		656CD83827ADDD220009DDE9 /* MonteCarloIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD83727ADDD220009DDE9 /* MonteCarloIntegration.swift */; };
+		656CD83927ADDD220009DDE9 /* MonteCarloIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD83727ADDD220009DDE9 /* MonteCarloIntegration.swift */; };
+		656CD83B27B5FF350009DDE9 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD83A27B5FF350009DDE9 /* DrawingView.swift */; };
+		656CD83C27B5FF350009DDE9 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD83A27B5FF350009DDE9 /* DrawingView.swift */; };
+		656CD88927B703680009DDE9 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD88827B703680009DDE9 /* CorePlot.swift */; };
+		656CD88A27B703680009DDE9 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD88827B703680009DDE9 /* CorePlot.swift */; };
+		656CD88C27B703DE0009DDE9 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD88B27B703DE0009DDE9 /* PlotDataClass.swift */; };
+		656CD88D27B703DE0009DDE9 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD88B27B703DE0009DDE9 /* PlotDataClass.swift */; };
+		656CD89027B704370009DDE9 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = 656CD88F27B704370009DDE9 /* CorePlot */; };
+		656CD89227B704570009DDE9 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD89127B704570009DDE9 /* CalculatePlotData.swift */; };
+		656CD89327B704570009DDE9 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD89127B704570009DDE9 /* CalculatePlotData.swift */; };
+		656CD89527B7047D0009DDE9 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD89427B7047D0009DDE9 /* ChangingPlotParameters.swift */; };
+		656CD89627B7047D0009DDE9 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD89427B7047D0009DDE9 /* ChangingPlotParameters.swift */; };
+		656CD89927B7070C0009DDE9 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = 656CD89827B7070C0009DDE9 /* CorePlot */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +65,13 @@
 		656CD81527ADD5520009DDE9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656CD81927ADD5520009DDE9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		656CD81B27ADD5520009DDE9 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		656CD83427ADD6010009DDE9 /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		656CD83727ADDD220009DDE9 /* MonteCarloIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloIntegration.swift; sourceTree = "<group>"; };
+		656CD83A27B5FF350009DDE9 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		656CD88827B703680009DDE9 /* CorePlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorePlot.swift; sourceTree = "<group>"; };
+		656CD88B27B703DE0009DDE9 /* PlotDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotDataClass.swift; sourceTree = "<group>"; };
+		656CD89127B704570009DDE9 /* CalculatePlotData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatePlotData.swift; sourceTree = "<group>"; };
+		656CD89427B7047D0009DDE9 /* ChangingPlotParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangingPlotParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656CD89027B704370009DDE9 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656CD89927B7070C0009DDE9 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +116,7 @@
 				656CD80C27ADD5510009DDE9 /* Tests iOS */,
 				656CD81827ADD5520009DDE9 /* Tests macOS */,
 				656CD7FD27ADD5510009DDE9 /* Products */,
+				656CD89727B7070C0009DDE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +124,14 @@
 			isa = PBXGroup;
 			children = (
 				656CD7F527ADD54B0009DDE9 /* Monte_Carlo_e_x_dxApp.swift */,
+				656CD83427ADD6010009DDE9 /* BoundingBox.swift */,
 				656CD7F627ADD54B0009DDE9 /* ContentView.swift */,
+				656CD88827B703680009DDE9 /* CorePlot.swift */,
+				656CD89127B704570009DDE9 /* CalculatePlotData.swift */,
+				656CD89427B7047D0009DDE9 /* ChangingPlotParameters.swift */,
+				656CD88B27B703DE0009DDE9 /* PlotDataClass.swift */,
+				656CD83727ADDD220009DDE9 /* MonteCarloIntegration.swift */,
+				656CD83A27B5FF350009DDE9 /* DrawingView.swift */,
 				656CD7F727ADD5510009DDE9 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -141,6 +174,13 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		656CD89727B7070C0009DDE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +197,9 @@
 			dependencies = (
 			);
 			name = "Monte-Carlo-e-x-dx (iOS)";
+			packageProductDependencies = (
+				656CD88F27B704370009DDE9 /* CorePlot */,
+			);
 			productName = "Monte-Carlo-e-x-dx (iOS)";
 			productReference = 656CD7FC27ADD5510009DDE9 /* Monte-Carlo-e-x-dx.app */;
 			productType = "com.apple.product-type.application";
@@ -174,6 +217,9 @@
 			dependencies = (
 			);
 			name = "Monte-Carlo-e-x-dx (macOS)";
+			packageProductDependencies = (
+				656CD89827B7070C0009DDE9 /* CorePlot */,
+			);
 			productName = "Monte-Carlo-e-x-dx (macOS)";
 			productReference = 656CD80227ADD5510009DDE9 /* Monte-Carlo-e-x-dx.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +295,9 @@
 				Base,
 			);
 			mainGroup = 656CD7EF27ADD54B0009DDE9;
+			packageReferences = (
+				656CD88E27B704370009DDE9 /* XCRemoteSwiftPackageReference "core-plot" */,
+			);
 			productRefGroup = 656CD7FD27ADD5510009DDE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,8 +348,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656CD83527ADD6010009DDE9 /* BoundingBox.swift in Sources */,
+				656CD89227B704570009DDE9 /* CalculatePlotData.swift in Sources */,
 				656CD81F27ADD5520009DDE9 /* ContentView.swift in Sources */,
+				656CD83B27B5FF350009DDE9 /* DrawingView.swift in Sources */,
+				656CD88927B703680009DDE9 /* CorePlot.swift in Sources */,
+				656CD88C27B703DE0009DDE9 /* PlotDataClass.swift in Sources */,
+				656CD83827ADDD220009DDE9 /* MonteCarloIntegration.swift in Sources */,
 				656CD81D27ADD5520009DDE9 /* Monte_Carlo_e_x_dxApp.swift in Sources */,
+				656CD89527B7047D0009DDE9 /* ChangingPlotParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +364,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656CD83627ADD6010009DDE9 /* BoundingBox.swift in Sources */,
+				656CD89327B704570009DDE9 /* CalculatePlotData.swift in Sources */,
 				656CD82027ADD5520009DDE9 /* ContentView.swift in Sources */,
+				656CD83C27B5FF350009DDE9 /* DrawingView.swift in Sources */,
+				656CD88A27B703680009DDE9 /* CorePlot.swift in Sources */,
+				656CD88D27B703DE0009DDE9 /* PlotDataClass.swift in Sources */,
+				656CD83927ADDD220009DDE9 /* MonteCarloIntegration.swift in Sources */,
 				656CD81E27ADD5520009DDE9 /* Monte_Carlo_e_x_dxApp.swift in Sources */,
+				656CD89627B7047D0009DDE9 /* ChangingPlotParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +766,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		656CD88E27B704370009DDE9 /* XCRemoteSwiftPackageReference "core-plot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/core-plot/core-plot";
+			requirement = {
+				branch = "release-2.4";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		656CD88F27B704370009DDE9 /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 656CD88E27B704370009DDE9 /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+		656CD89827B7070C0009DDE9 /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 656CD88E27B704370009DDE9 /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 656CD7F027ADD54B0009DDE9 /* Project object */;
 }
