@@ -75,7 +75,7 @@ class MonteCarloIntegration: NSObject, ObservableObject {
         error = log10(numerator/actualIntegral)
         
         var plotData :[plotDataType] =  []
-        let errorDataPoint: plotDataType = [.X: log10(Double(guesses)), .Y: (error)]
+        let errorDataPoint: plotDataType = [.X: log10(Double(totalGuesses)), .Y: (error)]
         plotData.append(contentsOf: [errorDataPoint])
         //plotDataModel?.appendData(dataPoint: [errorDataPoint])
         plotDataModel?.appendData(dataPoint: plotData)
