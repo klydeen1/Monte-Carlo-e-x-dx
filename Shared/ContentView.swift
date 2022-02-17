@@ -113,6 +113,7 @@ struct ContentView: View {
     }
     
     func clear(){
+        plotDataModel.zeroData()
         guessString = "23458"
         totalGuessString = "0.0"
         integralString =  ""
